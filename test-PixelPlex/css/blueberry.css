@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	border: 0;
+
+}
+.slider{
+	margin-top: 60px;
+}
+.slider a { color: #264c99; text-decoration: none; }
+.slider a:hover { text-decoration: underline; }
+
+.slider h1, .slider h2,.slider h3, .slider h4, .slider p { margin-bottom: 20px; }
+.slider h1 {
+	font-size: 48px;
+	line-height: 60px;
+	color: #ffffff;
+	text-transform: lowercase;
+}
+.slider h2, h3 {
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 40px;
+	color: #808080;
+}
+.slider h3 { font-size: 18px; color: #404040; }
+.slider h5 { font-weight: bold; font-size: 14px; color: #000; }
+
+
+#doc { margin: 40px 0; }
+#content {
+	margin: 0 auto;
+
+}
+
+.blueberry { max-width: 960px; }
+
+
+
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.blueberry .slides li img {
+	display: block;
+
+	max-width: none;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	height: 40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 14px;
+	width: 14px;
+
+}
+.blueberry .pager li a {
+	padding: 18px 8px;
+-webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+	border-radius: 16px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+-webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+	border-radius: 7px;
+}
+.blueberry .pager li.active a span { background: #404040; }
+.slides{
+	max-height: 700px;
+}

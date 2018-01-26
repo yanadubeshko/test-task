@@ -1,0 +1,422 @@
+@media (max-width: 1299px) {
+	  .three p{
+	  	font-size: 18px;
+	  }
+	  .one, .two, .three{
+	  	margin-left: 50px;
+	  }
+	  .three{
+	  	max-width: 450px;
+	  }
+
+}
+@media (max-width: 1199px) {
+	nav{
+		flex-direction: column;
+		margin-top: 20px;
+	}
+	nav ul{
+		justify-content: center;
+	}
+	.box1{
+		padding: 170px 0;
+	}
+	.one{
+		margin-left: 0;
+	}
+	.platform{
+		margin-bottom: 20px;
+	}
+	.link{
+		align-self: center;
+		margin: 0 auto;
+		display: block;
+		max-width: 290px;
+	}
+	.three{
+		margin-left: 50px;
+		max-width: 70%;
+		margin-right: 40px;
+	}
+	.one{
+		margin-left: 40px;
+	}
+	.three h1{
+		
+		width: auto;
+		max-width: 100%;
+	}
+	.box2{
+		margin: 0 40px;
+	}
+	.bg img{
+		max-width: 600px;
+
+	}
+	.box2 .phone-block{
+		margin-top: 90px;
+
+	}
+	.box2 h1{
+		padding-top: 130px;
+	}
+	.box3 .content{
+		width: 35%;
+		padding-top: 70px;
+	}
+	
+}
+@media (max-width: 991px) {
+	.box1{
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		padding: 0;
+		padding-top: 170px;
+	}
+	.two{
+		display: none;
+	}
+	body, html{
+		height: 100%;
+	}
+	.three{
+		margin-bottom: 50px;
+	}
+	.box2 .phone {
+		width: 180px;
+		height: 320px;
+		background: #fff;
+		border: 3px solid #dfdfdf;
+		border-radius: 25px;
+		display: flex;
+		flex-direction: column;
+	}
+	.box2 .on{
+		height: 5px;
+		background: #fff;
+		border-radius: 5px;
+	  	border: 3px solid #dfdfdf;
+	  	width: 30px;
+	  	align-self: flex-end;
+	  	margin-right: 40px;
+	  	margin-top: -5px;
+	}
+	.box2 .camera{
+		height: 8px;
+		width: 6px;
+		background: #cccccc;
+		border-radius: 6px;
+		align-self: center;
+	}
+	.box2 .speaker{
+		width: 40px;
+		height: 10px;
+		background: #cccccc;
+		border-radius: 6px;
+		align-self: center;
+		margin-top: 5px;
+
+	}
+	.box2 .screen{
+		width: 140px;
+		align-self: center;
+		height: 260px;
+		background: #f5f5f5;
+		border: 1px solid #dbdbdb;
+		margin-top: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.box2 .screen img{
+		width: 40px;
+	}
+	.box2 .home{
+		width: 25px;
+		height: 30px;
+		border-radius: 15px;
+		border: 2px solid #d1d1d1;
+		background: #fff;
+		align-self: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.screen1{
+		width: 140px;
+		height: 210px;
+
+		
+	}
+	.box2 h1{
+		padding-top: 170px;
+	}
+	.box2 .phone{
+		margin-top: 100px;
+	}
+	.box2 a{
+		margin-top: 30px;
+		font-size: 14px;
+		padding: 15px 20px 15px 20px;
+	}
+	.box3 h1{
+		margin-bottom: 15px;
+	}
+	.box3 p{
+		font-size: 16px;
+	}
+	.box3 a{
+		margin-top: 15px;
+	}
+
+}
+ 
+/* sm-размер (<=768px) */
+@media (max-width: 767px) { 
+  	.box1{
+		height: 100%;
+		padding-top: 30px;
+	}
+	.box1 h1{
+		display: block;
+		text-align: center;
+		font-size: 30px;
+	}
+  	nav{
+	  	flex-direction: column;
+	  	padding-top: 30px;
+	  }
+	  .logo{
+	  	margin-bottom: 10px;
+	  }
+	  header{
+	  	background: none;
+	  	height: 100%;
+	  	position: absolute;
+	  }
+	  header ul{
+	  	margin-bottom: 20px;
+	  	height: 100%;
+	  	flex-direction: column;
+	  	flex-wrap: wrap;
+	  	display: none;
+	  }
+	  .box1{
+	  	padding-top: 100px;
+	  }
+	  .menu-logo{
+	  	display: flex;
+	  	flex-direction: row-reverse;
+	  	align-items: flex-start;
+	  }
+	  .am:hover{
+	  	cursor: pointer;
+	  }
+	  .am{
+	  	display: block;
+	  	margin-right: 20px;
+	  	position: absolute;
+	  	left: 0;
+	  	top: 10px;
+	  	z-index: 999;
+	  	background: url(../img/am.png) no-repeat 35px 25px;
+	  	top: 0;
+	  	height: 28px;
+	  	padding: 25px 0 25px 20px;
+	  	border: 0;
+	  	z-index: 9999;
+	  	width: 70%;
+
+	  }
+	  .am2{
+	  	background: #fff;
+		width:70%;
+		background: #fff url(../img/am2.png) no-repeat 35px 25px;
+
+	  }
+	  .am img{
+	  	height: 28px;
+	  }
+	  nav{
+	  	height: 100%;
+	  	margin: 0;
+	  }
+	  nav ul{
+	  	padding: 0;
+	  	align-self: flex-start;
+	  	width: 70%;
+	  	background: #fff;
+	  	height: 100%;
+	  	padding: 10px;
+	  }
+	  .one{
+	  	margin: 0;
+	  }
+	  .platform{
+	  	margin-bottom: 20px;
+	  }
+	  .platform ul{
+	  	padding-left:30px;
+	  }
+	  .three p, .three h1{
+	  	display: none;
+	  }
+	  
+	  .three a{
+	  	margin-top: 20px;
+	  	font-size: 16px;
+	  	margin-bottom: 30px;
+	  }
+	  .three{
+	  	margin: 0;
+	  }
+	  .box2{
+	  	flex-direction: column;
+	  	align-items: flex-start;
+	  	align-content: flex-start;
+	  	justify-content: flex-start;
+	  	background: url(../img/maps.png) center center no-repeat;
+	  	height: 100pt;
+	  	width: 100%;
+	  	background-size: 100% auto;
+	  }
+	  .box2 h1{
+	  	background: #fff;
+	  	margin-top: 20px;
+
+	  	padding-top: 50px;
+	  }
+	  .maps-block{
+	  	
+	  }
+	  .maps-block img{
+	  	display: none;
+	  }
+
+	  .box2 h1{
+	  	padding: 0;
+	  	text-align: center;
+	  	min-width: 100%;
+	  	padding-bottom: 20px;
+	  	font-size: 26px;
+
+	  }
+	  .maps-block{
+	  	width: 100%
+	  }
+	  .link{
+	  	margin: 0;
+	  }
+	  .box2 .phone{
+	  	margin: 0;
+	  	align-content: flex-start;
+	  }
+	  .box2 .phone-block{
+	  	margin-top: 0;
+	  	align-content: space-between;
+	  	height: 100%;
+	  }
+	  .box2 .phone {
+		width: 90px;
+		height: 170px;
+		background: #fff;
+		border: 2px solid #dfdfdf;
+		border-radius: 15px;
+		display: flex;
+		flex-direction: column;
+	}
+	.box2 .on{
+		height: 5px;
+		background: #fff;
+		border-radius: 5px;
+	  	border: 2px solid #dfdfdf;
+	  	width: 20px;
+	  	align-self: flex-end;
+	  	margin-right: 15px;
+	  	margin-top: -4px;
+	}
+	.box2 .camera{
+		height: 8px;
+		width: 4px;
+		background: #cccccc;
+		border-radius: 6px;
+		margin-top: 5px;
+		align-self: center;
+	}
+	.box2 .speaker{
+		width: 20px;
+		height: 4px;
+		background: #cccccc;
+		border-radius: 6px;
+		align-self: center;
+		margin-top: 5px;
+
+	}
+	.box2 .screen{
+		width: 70px;
+		align-self: center;
+		height: 270px;
+		background: #f5f5f5;
+		border: 1px solid #dbdbdb;
+		margin-top: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.box2 .screen img{
+		width: 40px;
+	}
+	.box2 .home{
+		width: 10px;
+		height: 35px;
+		border-radius: 15px;
+		border: 2px solid #d1d1d1;
+		background: #fff;
+		align-self: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.screen1{
+		width: 70px;
+		height: 110px;
+	}
+	.phone-block{
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.box2 .phone{
+		align-self: flex-end;
+		margin-right: 20px;
+
+	}
+	.box3{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#doc{
+		margin-top: 0;
+	}
+	.box3 h1{
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.box3 .content p, .box3 .content a{
+		display: none;
+	}
+	.box3 .prez{
+		margin-bottom: 30px;
+	}
+}
+ 
+/* xs-размер (<=575px) */
+@media (max-width: 575px) {
+	.three a{
+		padding: 10px 50px 10px 30px;
+		font-size: 14px;
+	}
+  /* CSS для ширины до 575px (включительно) */
+}

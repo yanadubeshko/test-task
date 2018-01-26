@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PixelPlex - test task</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/blueberry.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="js/jquery.blueberry.js"></script>
+	<script>
+		$(window).load(function() {
+			$('.blueberry').blueberry();
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<nav id="div_Menu">
+			<div class="menu-logo">
+				<div class="logo"><img src="img/logo.png"></div>
+				<div class="am" id="btn-blind"></div>
+			</div>
+
+			<ul id="test-blind">
+				<li class="active"><a href="#">Увеличиваем конверсию</a></li>
+				<li><a href="#box2">Принцип работы</a></li>
+				<li><a href="#box3">№1 в Беларуси</a></li>
+				<li><a href="#">О маячке</a></li>
+				<li><a href="#">Ваш бизнес</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="content">
+		<div class="box1">
+			<h1>как повысить посещаемость магазина на 15%</h1>
+			<div class="one">
+				<div class="phone">
+					<div class="on"></div>
+					<div class="camera"></div>
+					<div class="speaker"></div>
+					<div class="screen">
+						<img src="img/adidas.png">
+						<div class="sale">
+							<span class="price">-70</span>
+							<span class="proc">%</span>
+							<span class="text1">на <BR></span>
+							<span class="text">вторую покупку</span>
+						</div>
+						<p class="bottom-text">Более 100 моделей обуви по цене ниже 850 000 рублей за пару!</p>
+					</div>
+					<div class="home"></div>
+				</div>
+				<div class="platform">
+					<ul>
+						<li><a href="#"><img src="img/android.png"></a></li>
+						<li><a href="#"><img src="img/apple.png"></a></li>
+						<li><a href="#"><img src="img/windows.png"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="two"><img src="img/circle.png"></div>
+			<div class="three">
+				<h1>как повысить посещаемость магазина на 15%</h1>
+				<p>Уникальная и инновационная технология для Беларуси. Отправляйте автоматически любому человеку в радиусе 5-ти метров вокург вашего магазина сообщения о скидках и акциях прямо в его смартфон!</p>
+				<p>Отслеживайте поведение внутри помещения, зонируйте ваш магазин, сообщайте об акциях в том отделе, где находится посетитель.</p>
+				<p>Система полностью автоматизированна и не требует времени сотрудников на обслуживание.</p>
+				<a href="#" class="link">Подробнее о системе iBeacon</a>
+			</div>
+			
+		</div>
+		<div class="box2" >
+			<div class="maps-block">
+				<h1 id="box2">Как это работает? </h1>
+				<div class="bg"><img src="img/maps.png" usemap="#imagemap"></div>
+			</div>
+			<div class="phone-block">
+				<div class="phone">
+					<div class="on"></div>
+					<div class="camera"></div>
+					<div class="speaker"></div>
+					<div class="screen">
+						<div class="screen1"></div>
+						<div class="screen2"></div>
+						<div class="screen3"></div>
+					</div>
+					<div class="home"></div>
+				</div>
+				<a href="#" class="link">Хочу так же</a>
+			</div>
+		</div>
+		<div class="box3" id="box3">
+			<div class="content">
+				<h1>первые проекты в беларуси с технологией ibeacon</h1>
+				<p>Здесь будет расписано использование маячков в реальном проекте. В Минске проходит XXII Международный специализированный форум по информационным и банковским технологиям - "ТИБО-2015". Из нового также стоит упомянуть v-banking – универсальное мобильное приложение, которое позволяет объединить в один аккаунт все свои банковские карты и управлять ими со смартфона.</p>
+				<a href="#">Посмотреть еще проект</a>
+			</div>
+			<div class="slider">
+				<div id="doc">
+				  <div id="content">
+
+				<!-- blueberry -->
+
+				    <div class="blueberry">
+				      <ul class="slides">
+				        <li><img src="img/slide1.png" /></li>
+				        <li><img src="img/slide1.png" /></li>
+				        <li><img src="img/slide1.png" /></li>
+				        <li><img src="img/slide1.png" /></li>
+				      </ul>
+				    </div>
+
+				<!-- blueberry -->
+
+				  </div>
+				</div>
+				<a class="prez" href="#">Заказать презентацию</a>
+				
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript">
+	/*	$("#btn-blind").click(function() {
+		   
+		        $("#test-blind").show("blind", { direction: "horizontal" }, 10);
+		   
+		});*/
+		 $('document').ready(function(){
+				 $('#btn-blind').click(function(){
+				            if  ($('#test-blind').is(':visible')){
+				              $('#btn-blind').removeClass('am2');
+				              $('#test-blind').fadeOut(100);
+				            }
+				            else {
+				            	$('#btn-blind').addClass('am2');
+				              $('#test-blind').fadeIn(100);
+
+				            }
+				 });
+		    });
+
+	</script>
+</body>
+</html>
